@@ -1,0 +1,20 @@
+/* this is a universal selector. this is used to select all elements*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* this is a Type selector. it uses the element name from your html file
+margin: 0 auto; */
+
+h1 {
+  color: purple;
+}
+
+
+.yellow {
+  background-color: yellow;
+  width: 400px;
+}

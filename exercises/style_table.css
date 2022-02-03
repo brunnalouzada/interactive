@@ -1,0 +1,62 @@
+/* this is a universal selector. this is used to select all elements*/
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* this is a Type selector. it uses the element name from your html file
+margin: 0 auto; */
+
+h1 {
+  margin: 0 auto;
+  color: purple;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: serif;
+  text-decoration-style: wavy;
+  letter-spacing: 1;
+  text-align: center;
+  text-shadow: 1px 1px 2px gold;
+  letter-spacing: 2px;
+}
+
+
+.blurb {
+  background-color: lavender;
+  border-style: inset;
+  border-color: gold;
+  border-width: medium;
+  font-family: sans-serif;
+  font-size-adjust:
+  line-height: 1.5px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+
+  width: 400px;
+  inline-block: vertical-align;
+  margin: 0 auto;
+}
+
+.table {
+  font-family: monospace;
+    padding: 60px;
+    margin-left: 80px;
+        margin-right: 80px;
+  border-style: dotted;
+  border-width: medium;
+  border-color: lavender cyan lavender cyan;
+  text-align: center;
+  border-spacing: 20px;
+
+}
+
+td {
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
