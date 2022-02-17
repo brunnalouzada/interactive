@@ -2,7 +2,6 @@
   align-content: center;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 
 }
 
@@ -56,8 +55,8 @@ a.back:link, a.back:visited {
   border-radius: 20px 5px 5px 20px;
   padding: 10px 15px;
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 60px;
+  float:left;
   text-decoration: none;
   display: inline-block;
 }
@@ -68,8 +67,8 @@ a.next:link, a.next:visited {
   border-radius: 5px 20px 20px 5px;
   padding: 10px 15px;
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-right: 40px;
+  float:right;
   text-decoration: none;
   display: inline-block;
 }
