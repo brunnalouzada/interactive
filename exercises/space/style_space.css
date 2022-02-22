@@ -29,7 +29,7 @@
   margin: 20px;
   text-decoration: none;
   display: inline-flex;
-  cursor: row-resize;
+  cursor: pointer;
 }
 
 a.option:hover, a.option:active {
