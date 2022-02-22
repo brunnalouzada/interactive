@@ -1,5 +1,6 @@
 * {
   align-content: center;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 
@@ -16,6 +17,33 @@
   display: inline-block;
 }
 
+.option{
+  background-color: peru;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px;
+  text-decoration: none;
+  display: inline-flex;
+  cursor: row-resize;
+}
+
+a.option:hover, a.option:active {
+  background-color: white;
+  color: peru;
+  border: 2px solid peru;
+}
+
+
+
+.buttons{
+  text-align: center;
+}
+
 h1 {
   text-align: center;
   margin: 0 auto;
@@ -23,8 +51,6 @@ h1 {
   margin: 0 auto;
   font-family: sans-serif;
   padding: 20px;
-  text-shadow: 2px 2px 5px #555;
-  letter-spacing: .2em;
 }
 .patterndiv {
   margin-left: 60px;
