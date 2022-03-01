@@ -52,6 +52,17 @@ h1 {
   font-family: sans-serif;
   padding: 20px;
 }
+
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
 .patterndiv {
   margin-left: 60px;
   padding: 0;
