@@ -1,0 +1,175 @@
+* {
+  align-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Istok Web', sans-serif;
+
+}
+
+.home {
+  background-color: DarkSeaGreen;
+  color: white;
+  border-radius: 5px 5px 20px 20px;
+  padding: 10px 15px;
+  text-align: center;
+  margin: 0px 60px 60px 60px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+h1 {
+  text-align: center;
+  color: darkseagreen;
+  font-family: 'Istok Web', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  color: darkseagreen;
+  margin: 0 auto;
+  font-size: 13px;
+  font-family: 'Istok Web', sans-serif;
+}
+
+.middlep {
+  background-color: #CCCCFF;
+  color: #4A235A;
+  width: 700px;
+  inline-block: vertical-align;
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+#dropdown, #dropdown:active{
+  width: 170px;
+  background-color: #CCCCFF;
+  color: #4A235A;
+  margin: 0 auto;
+  font-family: 'Istok Web', sans-serif;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+}
+
+#dropdown:hover{
+  background-color: white;
+  color: darkseagreen;
+  border: 2px solid darkseagreen;
+}
+
+.middlep2 {
+  background-color: #CCCCFF;
+  color: #4A235A;
+  width: 700px;
+  inline-block: vertical-align;
+  font-family: sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+#dropdown2, #dropdown2:active {
+  width: 170px;
+  color: #4A235A;
+  background-color: #CCCCFF;
+  margin: 0 auto;
+  font-family: 'Istok Web', sans-serif;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+}
+  ul{
+    list-style-type: circle;
+}
+
+#dropdown2:hover{
+  background-color: white;
+  color: darkseagreen;
+  border: 2px solid darkseagreen;
+}
+
+.buttons{
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Istok Web', sans-serif;
+
+}
+
+.option{
+  background-color: #CCCCFF;
+  width: 170px;
+  color: #4A235A;
+  font-family: 'Istok Web', sans-serif;
+  border: 2px solid #5B2C6F;
+  border-radius: 20px;
+  padding-left: 45px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px;
+  text-decoration: none;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+a.option:hover, a.option:active {
+  background-color: white;
+  color: darkseagreen;
+  border: 2px solid darkseagreen;
+}
+
+
+
+
+
+
+
+a.back:link, a.back:visited {
+  background-color: darkseagreen;
+  color: white;
+  border-radius: 20px 5px 5px 20px;
+  padding: 10px 15px;
+  text-align: center;
+  margin-left: 60px;
+  float:left;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.next:link, a.next:visited {
+  background-color: darkseagreen;
+  color: white;
+  border-radius: 5px 20px 20px 5px;
+  padding: 10px 15px;
+  text-align: center;
+  margin-right: 40px;
+  float:right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+footer {
+  padding: 85px 0px 50px 0px;
+  text-align: center;
+
+}

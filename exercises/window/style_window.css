@@ -4,13 +4,28 @@
   box-sizing: border-box;
   font-family: sans-serif;
   background-color: slategrey;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Istok Web', sans-serif;
 }
+
+.home {
+  background-color: mistyrose;
+  color: slategrey;
+  border-radius: 5px 5px 20px 20px;
+  padding: 10px 15px;
+  text-align: center;
+  margin: 0px 60px 60px 60px;
+  text-decoration: none;
+  font-family: 'Istok Web', sans-serif;
+  display: inline-block;
+}
+
 h1 {
   text-align: center;
   margin-right:200px;
   margin-left: 200px;
   color: slategrey;
-  font-family: sans-serif;
+  font-family: 'Istok Web', sans-serif;
   background-color: mistyrose;
   padding: 20px;
   border-radius: 30px;
@@ -57,12 +72,15 @@ img:hover{
 .container {
   position: relative;
   align-content: center;
+  color: white;
+  text-align: justify;
   width: 50%;
   max-width: 300px;
   flex: 33.33%;
   padding: 0px;
   margin-left: 40px;
   margin-right: 40px;
+  font-size: 12px;
   float: left;
   display: inline-block;
 }
@@ -95,3 +113,34 @@ When you mouse over the container, fade in the overlay title
 .container:hover .overlay {
   opacity: 1;
 }*/
+
+a.back:link, a.back:visited {
+  background-color: mistyrose;
+  color: slategrey;
+  border-radius: 20px 5px 5px 20px;
+  padding: 10px 15px;
+  text-align: center;
+  margin-left: 60px;
+  float:left;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.next:link, a.next:visited {
+  background-color: mistyrose;
+  color: slategrey;
+  border-radius: 5px 20px 20px 5px;
+  padding: 10px 15px;
+  text-align: center;
+  margin-right: 40px;
+  float:right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+footer {
+  padding: 85px 0px 50px 0px;
+  text-align: center;
+
+}
