@@ -6,6 +6,7 @@
   font-family: 'Istok Web', sans-serif;
   grid-template-rows:    repeat(4, 100px);
 grid-template-columns: repeat(3, 1fr);
+display: inline-block;
 }
 
 .home {
@@ -47,6 +48,29 @@ transition-duration: .5s;
 transition-delay: 400ms;
 transition-timing-function: ease-out;
 cursor: pointer;
+}
+
+@media all and (max-width: 500px)
+  h2 {
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+
+@media screen and (max-width: 500px){
+  .grid {
+    grid-template-columns: 50% 50%
+  }
+}
+
+
+#text-2{
+  color: #1B2A49;
+   text-shadow: 0 0 1200px rgba(0,0,0,10);
+}
+
+#text-2: hover{
+  color:#1B2A49;
+  text-shadow: none;
 }
 
 p:hover {
