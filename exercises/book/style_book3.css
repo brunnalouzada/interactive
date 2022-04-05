@@ -23,7 +23,7 @@ display: inline-block;
 .grid {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: repeat(13,400px);
+  grid-template-rows: repeat(25,400px);
 }
 
 h1 {
@@ -173,12 +173,12 @@ p:hover {
 }
 
 .T {
-  grid-column-start: 1;
+  grid-column-start: 5;
   grid-row-start: 18;
 }
 
 .U {
-  grid-column-start: 1;
+  grid-column-start: 5;
   grid-row-start: 19;
 }
 
