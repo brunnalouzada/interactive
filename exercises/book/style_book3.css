@@ -143,16 +143,65 @@ p:hover {
 }
 
 .N {
-  grid-column-start: 3;
-  grid-row-start: 12;
+  grid-column-start: 2;
+  grid-row-start: 11;
 }
 
 .O {
-  grid-column-start: 4;
+  grid-column-start: 1;
   grid-row-start: 13;
 }
 
 .P {
+  grid-column-start: 2;
+  grid-row-start: 14;
+}
+
+.Q {
+  grid-column-start: 2;
+  grid-row-start: 15;
+}
+
+.R {
+  grid-column-start: 3;
+  grid-row-start: 16;
+}
+
+.S {
+  grid-column-start: 4;
+  grid-row-start: 17;
+}
+
+.T {
+  grid-column-start: 1;
+  grid-row-start: 18;
+}
+
+.U {
+  grid-column-start: 1;
+  grid-row-start: 19;
+}
+
+.V {
+  grid-column-start: 1;
+  grid-row-start: 20;
+}
+
+.W {
+  grid-column-start: 1;
+  grid-row-start: 7;
+}
+
+.X {
+  grid-column-start: 1;
+  grid-row-start: 7;
+}
+
+.Y {
+  grid-column-start: 1;
+  grid-row-start: 7;
+}
+.Z {
   grid-column-start: 1;
   grid-row-start: 7;
 }
