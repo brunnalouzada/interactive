@@ -3,8 +3,23 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Istok Web', sans-serif;
 
 }
+
+.home {
+  background-color: DarkSeaGreen;
+  color: white;
+  border-radius: 5px 5px 20px 20px;
+  padding: 10px 15px;
+  text-align: center;
+  margin: 0px 60px 0px 60px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
 /* this is a Type selector. it uses the element name from your html file
 margin: 0 auto; */
 

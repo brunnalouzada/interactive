@@ -1,6 +1,6 @@
 /* this is a universal selector. this is used to select all elements*/
 * {
-  margin: 0 auto;
+  align-content: center;
   padding: 0;
   box-sizing: border-box;
   align-content: center;
@@ -12,15 +12,44 @@
 
 /* this is a Type selector. it uses the element name from your html file
 margin: 0 auto; */
-
+.inside{
+  margin-left: 60px;
+}
 h1 {
   color: lightsalmon;
     font-family: 'Playfair Display', serif;
+    text-align: center;
+
 }
 
 h2 {
   color: lightsalmon;
     font-family: 'Playfair Display', serif;
+}
+
+h3 {
+      text-align: center;
+      font-style: normal;
+}
+h4 {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+.italic{ text-decoration: none;
+font-style: italic;
+color: DarkOliveGreen;
+}
+
+.italicclass{ text-decoration: none;
+color: lightsalmon;
+
+}
+
+.bottom{
+    position: fixed;
+    text-decoration: none;
 }
 
 .yellow {
@@ -48,7 +77,43 @@ li{
   margin-left: 20px;
 }
 
+.grid {
+  display: grid;
+  align-self: auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
 
+.A {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.B {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.C {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.D {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.E {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.F {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  padding-top: 20px;
+}
 
 li a, .dropbtn {
   display: inline-block;
@@ -59,7 +124,7 @@ li a, .dropbtn {
   border-radius: 20px 20px 5px 5px;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a .dropdown-content:hover, .dropdown:hover .dropbtn {
   background-color: DarkSeaGreen;
   color: white;
 }
@@ -94,4 +159,27 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.buttons{
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Istok Web', sans-serif;
+  background-color: white;
+  width: 170px;
+  font-family: 'Istok Web', sans-serif;
+  border: 2px solid lightsalmon;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttons:hover{
+  background-color: #EAEFE2;
+  border: 2px solid lightsalmon;
+  text-decoration-color: white;
 }
